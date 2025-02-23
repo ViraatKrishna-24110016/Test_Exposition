@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Blog Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+        padding: 10px;
+    }
+}
+.banner {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover; /* Ensures it looks good */
+}
+.author-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
+.place{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
